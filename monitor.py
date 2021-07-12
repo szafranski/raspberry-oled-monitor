@@ -129,13 +129,13 @@ while True:
 
     # Icons
     # Icon temperator
-    draw.text((x, top+5),    unichr(62152),  font=font_icon, fill=255)
+    draw.text((x, top+5), chr(62152),  font=font_icon, fill=255)
     # Icon memory
-    draw.text((x+60, top+5), unichr(62171),  font=font_icon, fill=255)
+    draw.text((x+60, top+5), chr(62171),  font=font_icon, fill=255)
     # Icon disk
-    draw.text((x, top+30), unichr(61888),  font=font2, fill=255)
+    draw.text((x, top+30), chr(61888),  font=font2, fill=255)
     # Icon Wifi
-    draw.text((x, top+52), unichr(61931),  font=font2, fill=255)
+    draw.text((x, top+52), chr(61931),  font=font2, fill=255)
        
   # Text temperatur 
     draw.text((x+15, top+5), str(Temperature),  font=font, fill=255)
